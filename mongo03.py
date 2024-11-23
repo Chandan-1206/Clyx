@@ -217,7 +217,7 @@ def run_apriori():
 
     except Exception as e:
         logging.error(f"Apriori algorithm error: {e}")
-        return jsonify({"error": f"Internal server error: {str(e)}"}), 500v
+        return jsonify({"error": f"Internal server error: {str(e)}"}), 500
 
 
 if __name__ == '__main__':
